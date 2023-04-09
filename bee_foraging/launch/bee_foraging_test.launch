@@ -1,0 +1,10 @@
+<launch>
+  <!-- Start bee_foraging_service node -->
+  <node name="bee_foraging_service" pkg="bee_foraging" type="bee_foraging_service.py" output="screen" />
+
+  <!-- Start test_bee_foraging node -->
+  <node name="test_bee_foraging" pkg="bee_foraging" type="test_bee_foraging.py" output="screen" />
+</launch>
+
+
+

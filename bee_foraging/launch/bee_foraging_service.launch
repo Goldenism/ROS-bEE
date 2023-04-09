@@ -1,0 +1,6 @@
+<launch>
+  <node name="bee_foraging_service" pkg="bee_foraging" type="bee_foraging_service.py" output="screen" />
+</launch>
+
+
+
